@@ -60,6 +60,14 @@ PRODUCT_PACKAGES += \
 # Boot Animtion
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Cas Hal
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service-lazy
+
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
+
 # Display
 PRODUCT_PACKAGES += \
     gralloc.msm8916 \
